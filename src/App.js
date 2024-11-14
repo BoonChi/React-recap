@@ -1,5 +1,5 @@
 import './App.css';
-import {Square, SquareList} from './Square';
+import {Square, SquareList,DoubleCircle} from './Square';
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   <Square size={100}/>
   <SquareList number={4}/> 
   <SquareList number={3}/>
+  <DoubleCircle />
  </div>
 }
 

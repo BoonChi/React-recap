@@ -28,3 +28,9 @@ export const SquareList = ({number}) => {
         {list.map((each) => <Square onClick={() => onClick(each.id)} key={each.id} size={each.size} />)}
     </div>
 }
+
+export const DoubleCircle = () => {
+    return <div style={{position: 'relative', width: '100px', height: '100px', borderRadius: '50%', backgroundColor: 'black'}}>
+        <div style={{position: 'absolute', width: '20px', height: '20px', borderRadius: '50%', backgroundColor: 'red', top: '50%', left: "50%", transform: 'translate(-50%, -50%)'}}></div>
+    </div>
+}
